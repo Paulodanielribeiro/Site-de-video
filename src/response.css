@@ -1,0 +1,82 @@
+@media screen and (max-width: 600px) { 
+  
+    #app {
+      width: 100%;
+    }
+
+    #search-form input {
+      width: 90%;
+      display: block;
+      margin: auto;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+    #search-form button {
+      display: block;
+      margin: auto;
+      border-radius: 15px;
+    }
+
+    .tv-card {
+      width: 100%;
+    }
+
+    .show-banner img {
+      width: 100%;
+    }
+
+    #show-container {
+      flex-direction: column;
+    }
+
+    #backlink {
+      position: relative;
+    }
+
+    #image-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 5px;
+    }
+
+    #image-container img {
+      width: 100%;      
+    }
+
+    #details-container {
+      text-align: left;
+      width: 100%;
+    }
+
+    #details-container a {
+      width: 100%;
+    }
+
+    #loading {
+      width: 150px;
+      margin: 10px auto;
+    }
+    
+    .dot:nth-child(1) {
+      left:25px;
+    }
+    
+    .dot:nth-child(2) {
+      left: 50px;
+    }
+
+    .dot:nth-child(3) {
+      left: 75px;
+    }
+    
+    .dot:nth-child(4) {
+      left: 100px;
+    }
+    
+    .dot:nth-child(5) {
+      left: 125px;
+    }
+}
