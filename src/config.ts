@@ -1,1 +1,2 @@
-export const API_URL = 'https://api.tvmaze.com'
+
+export const API_URL = 'https://api.dailymotion.com/videos?search=hulk'
